@@ -1,0 +1,27 @@
+.card {
+  background-color: var(--color-background-main);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 400;
+
+  .block {
+    display: flex;
+    padding: 0.25rem 0rem;
+    min-width: 8rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    align-self: stretch;
+    border-radius: 0.9375rem;
+    background: var(--color-block-bg);
+
+    p,
+    h2 {
+      padding: 0.25rem;
+    }
+  }
+}
