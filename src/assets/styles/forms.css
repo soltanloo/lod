@@ -1,0 +1,15 @@
+form {
+  @apply max-w-sm flex flex-col items-center justify-center space-y-4;
+}
+
+input {
+  @apply w-full p-3 rounded-lg bg-block-bg text-text-low border-none;
+}
+
+.button-primary {
+  @apply w-full p-3 bg-blue text-text-high rounded-lg;
+}
+
+.button-primary:hover {
+  background-color: #2563eb;
+}
