@@ -62,3 +62,5 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+AI Tools used: GitHub Copilot, OpenAI ChatGPT, and Figma Builder.io Plugin
