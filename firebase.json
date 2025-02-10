@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist",
+    "site": "lod-front-assessment",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
