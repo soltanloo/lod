@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/energy' // Use the proxy path
+const baseUrl = import.meta.env.VITE_API_URL || '/api'
 const API_KEY = import.meta.env.VITE_API_KEY
 
 export interface EnergyData {
@@ -13,7 +13,7 @@ export interface EnergyData {
 
 export async function fetchEnergyData(): Promise<EnergyData> {
   try {
-    const response = await axios.get(`${API_URL}?algorithm=sha256&mode=realtime`, {
+    const response = await axios.get(`${baseUrl}/energy/?algorithm=sha256&mode=realtime`, {
       headers: {
         accept: 'application/json',
         'x-api-key': API_KEY,
