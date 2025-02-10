@@ -21,7 +21,7 @@ VITE_FIREBASE_PROJECT_ID=
 VITE_FIREBASE_STORAGE_BUCKET=
 VITE_FIREBASE_MESSAGING_SENDER_ID=
 VITE_FIREBASE_APP_ID=
-
+````
 
 ### Compile and Hot-Reload for Development
 
@@ -35,32 +35,11 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
 
-AI Tools used: GitHub Copilot, OpenAI ChatGPT, and Figma Builder.io Plugin
+### AI Tools Used
+GitHub Copilot, OpenAI ChatGPT, and Figma Builder.io Plugin
